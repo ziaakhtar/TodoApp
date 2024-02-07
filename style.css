@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: rgb(81, 148, 220);
+    background: linear-gradient(145deg, #03ddffcb, #ff0381b6 90%);
+
+}
+.container{
+    position: relative;
+    max-width: 1000px;
+    padding: 10px;
+    margin: 0;
+}
+.TODO APP{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+input{
+    width: 90%;
+    color: #333;
+    border: none;
+    border-bottom: 2px solid #666;
+    padding: 10px;
+    font-size: 22px;
+    outline: none;
+    background: none;
+}
+ button{
+    margin: 0 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.Not completed,Completed{
+    margin: 5px 0;
+    padding: 20px;
+}
+h3{
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+}
+ol{
+    list-style: none;
+}
+ol{
+    width: 100%;
+    padding: 20px;
+    margin: 50px 0;
+    background: #e96969bb;
+    font-size: 22px;
+}
+ol.Completed {
+    background: #60f599;
+}
+li button{
+    float: right;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+    
