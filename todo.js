@@ -1,5 +1,5 @@
 const input = document.querySelector('#input');
-const btn = document.querySelector('.sparkle-button');
+const btn = document.querySelector('.button');
 const Notcompleted = document.querySelector('.NotCompleted');
 const Completed = document.querySelector('.Completed');
 
